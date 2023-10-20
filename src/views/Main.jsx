@@ -7,12 +7,13 @@ import Footer from "../components/Footer";
 
 function Main() {
     return (
-      <main className="wallpaper d-flex align-items-center mt-4" >
+      
+      <main className="wallpaper d-flex align-items-center justify-content-center" >
         <Row className="d-flex justify-content-center m-3" style={{minWidth:"300px"}}>
           <Col  >
+          <img src={myself} alt="yo" style={{width:"300px", borderRadius: "50px"}}></img>
           </Col>
-          <img src={myself} alt="yo" style={{width:"180px", borderRadius: "50px"}}></img>
-          <Col className="font" style={{minWidth:"300px"}}>
+          <Col className="font text-white" style={{minWidth:"300px"}}>
              <p>asd
              </p>
             <p>asd
