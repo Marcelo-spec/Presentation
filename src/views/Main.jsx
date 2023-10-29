@@ -13,14 +13,14 @@ function Main() {
           <Col  >
           <img src={myself} alt="yo" style={{width:"300px", borderRadius: "50px"}}></img>
           </Col>
-          <Col className="font text-white" style={{minWidth:"300px"}}>
-             <p>asd
-             </p>
-            <p>asd
-             </p>
-             <p>asd</p>
-          </Col>
         </Row>
+          <Col className="font text-white" style={{minWidth:"300px"}}>
+             <p>Hola, mi nombre es Marcelo, actual estudiante de Inglés y desarrollador Full Stack Javascript, mis hobbies son la música, los videojuegos y algo de deporte jeje
+             </p>
+            <p>Y como puedes notar, también tengo cierto interés en la astronomía, lo desconocido permite usar tú imaginación
+             </p>
+             <p>Puedes acceder a repositorios de GitHub haciendo <a href="https://github.com/Marcelo-spec?tab=repositories" target='blank'>click aqui</a> para ver proyectos</p>
+          </Col>
       </main>
     
     )

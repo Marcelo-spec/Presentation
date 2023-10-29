@@ -2,13 +2,6 @@
   min-height: 20vh;
 };
 
-
-.icon {
-  display: block;
-  padding: 14%;
-  font-size: 2rem;
-}
-
 .font {
   font-family: 'Jost', sans-serif;
 }
@@ -21,3 +14,6 @@
   min-height: 100vh;
 }
 
+.icon {
+  padding: 4%;
+}
