@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa6'
 import { IoMail } from 'react-icons/io5'
@@ -11,7 +10,7 @@ function Footer() {
         <Navbar.Text className='text-light m-2 d-flex'>
           Contacto
         </Navbar.Text>
-        <Navbar.Text className='d-flex flex-row'>
+        <Navbar.Text className='d-flex flex-row' style={{gap:"8px"}}>
         <a href="https://github.com/Marcelo-spec" target="_blank" rel="noopener noreferrer">
         <FaGithub className='icon' /> 
       </a>
