@@ -7,7 +7,7 @@ function Footer() {
   return (
     <Navbar expand="lg" className="end bg-dark justify-content-center" variant="dark">
       <div className='d-flex flex-column text-center p-2'>
-        <Navbar.Text className='text-light m-2 d-flex'>
+        <Navbar.Text className='text-light'>
           Contacto
         </Navbar.Text>
         <Navbar.Text className='d-flex flex-row' style={{gap:"8px"}}>
