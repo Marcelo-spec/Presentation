@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 function Main() {
     return (
       
-      <main className="wallpaper d-flex align-items-center justify-content-center" >
+      <main className="myself wallpaper d-flex align-items-center justify-content-center" >
         <Row className=" float d-flex justify-content-center" style={{minWidth:"300px"}}>
           <Col >
           <img src={myself} alt="me" style={{width:"300px", borderRadius: "50px"}}></img>

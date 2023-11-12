@@ -3,7 +3,7 @@
 };
 
 .font {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Jost', sans-serif; 
 }
 
 .wallpaper {
@@ -18,4 +18,10 @@
 .icon {
   padding: 8%;
   font-size: 160%;
+}
+
+@media (max-width: 600px) {
+  .myself {
+    padding-top: 60px;
+  }
 }

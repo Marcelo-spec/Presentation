@@ -1,17 +1,16 @@
-import './App.css';
-import Navbar from "./components/Navbar"
-import Main from "./views/Main"
-import Footer from "./components/Footer"
+import './App.css'
+import Navbar from './components/Navbar'
+import Main from './views/Main'
+import Footer from './components/Footer'
 
-
-function App() {
+function App () {
   return (
-    <div className="App">
-     <Navbar />
-     <Main />
-     <Footer />
+    <div className='App' style={{overflowX:"hidden"}}>
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
