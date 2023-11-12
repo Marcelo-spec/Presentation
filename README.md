@@ -1,4 +1,4 @@
 # Presentation App
 
-This project still in progress
+This project is a small portfolio
 
