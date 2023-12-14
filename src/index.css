@@ -20,8 +20,17 @@
   font-size: 160%;
 }
 
-@media (max-width: 600px) {
-  .myself {
-    padding-top: 60px;
+
+.myself img {
+  padding-top: 20px;
+  width: 300px;  
+  max-width: 300px;  
+  border-radius: 80px;
+}
+
+@media (min-width: 768px) {
+  .myself img {
+    max-width: none;  
   }
 }
+
